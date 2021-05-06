@@ -28,6 +28,7 @@ header.container{
 
 header.container .logo{
     font-size: 4.5rem;
+    text-align: center;
     padding: 20px;
     font-family: 'Fira Sans', sans-serif;
 }
