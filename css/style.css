@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url("../img/paisagem.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header.container{
+    width: 100vw;
+    height: 140px;
+    background-color: #424242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.container .logo{
+    font-size: 4.5rem;
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header.container .menu{
+    width: 25vw;
+    margin-right: 5rem;
+}
+
+header.container .menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header.container .menu ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: "Roboto";
+    transition: 0.1s all ease-in-out;
+}
+
+header.container .menu ul li a:hover{
+    border-bottom: 3px solid white;
+}
