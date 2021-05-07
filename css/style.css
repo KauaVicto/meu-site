@@ -17,6 +17,8 @@ body{
     background-image: url("../img/paisagem.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 340vh;
+    position: relative;
 }
 
 header.container{
@@ -179,4 +181,14 @@ main .projetos .container img{
     border-radius: 150px;
     object-fit: cover;
     object-position: top;
+}
+
+/* FOOTER */
+
+.rodape {
+    width: 100vw;
+    height: 200px;
+    background-color: #213886;
+    position: absolute;
+    bottom: 0;
 }
