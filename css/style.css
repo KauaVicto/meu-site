@@ -10,6 +10,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -61,13 +62,8 @@ header.container .menu ul li a:hover{
 
 /* MAIN */
 
-/* HOME */
-
-main .home{
-    margin-top: 100px;
-    width: 100%;
-    height: 700px;
-    background-color: rgba(16, 166, 148, 0.53);
+main{
+    width: 100vw;
 }
 
 main h1{
@@ -78,6 +74,17 @@ main h1{
     color: white;
 }
 
+/* HOME */
+
+main .home{
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(16, 166, 148, 0.53);
+}
+
+
+
 main .home .texto{
     width: 40%;
     margin: 0 auto;
@@ -87,4 +94,41 @@ main .home .texto p{
     font-size: 2rem;
     text-align: center;
     font-family: "Poppins";
+}
+
+/* SERVIÇOS */
+
+main .servicos{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(255, 0, 0, 0.61);
+}
+
+main .servicos .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .servicos .container .servico{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #10A694;
+    width: 250px;
+    height: 310px;
+    border-radius: 6px;
+}
+
+main .servicos .servico img{
+    margin: 0 auto;
+}
+
+main .servicos .servico span{
+    font-size: 2.4rem;
+    font-family: "Poppins";
+    text-align: center;
+    width: 60%;
 }
