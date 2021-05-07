@@ -72,13 +72,20 @@ main h1{
     text-align: center;
     padding: 50px;
     color: white;
+} 
+main section{
+    width: 100%;
+}
+main .texto{
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Poppins";
 }
 
 /* HOME */
 
 main .home{
     margin-top: 100px;
-    width: 100%;
     height: 700px;
     background-color: rgba(16, 166, 148, 0.53);
 }
@@ -90,16 +97,9 @@ main .home .texto{
     margin: 0 auto;
 }
 
-main .home .texto p{
-    font-size: 2rem;
-    text-align: center;
-    font-family: "Poppins";
-}
-
 /* SERVIÇOS */
 
 main .servicos{
-    width: 100%;
     height: 700px;
     background-color: rgba(255, 0, 0, 0.61);
 }
@@ -131,4 +131,32 @@ main .servicos .servico span{
     font-family: "Poppins";
     text-align: center;
     width: 60%;
+}
+
+/* ESTUDOS */
+
+main .estudos{
+    height: 700px;
+    background-color: rgba(14, 0, 70, 0.57);
+}
+
+main .estudos .container{
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .estudos .texto{
+    width: 40%;
+}
+
+main .estudos .linguagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+main .estudos .linguagens img{
+    width: 100px;
 }
