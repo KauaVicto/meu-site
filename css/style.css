@@ -22,7 +22,7 @@ body{
 header.container{
     width: 100vw;
     height: 140px;
-    background-color: #424242;
+    background-color: #153140;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +101,7 @@ main .home .texto{
 
 main .servicos{
     height: 700px;
-    background-color: rgba(255, 0, 0, 0.61);
+    background-color: rgba(65, 94, 140, 0.61);
 }
 
 main .servicos .container{
@@ -159,4 +159,24 @@ main .estudos .linguagens{
 
 main .estudos .linguagens img{
     width: 100px;
+}
+
+/* PROJETOS */
+
+main .projetos{
+    height: 700px;
+    background-color: rgba(36, 5, 26, 0.85);
+}
+
+main .projetos .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .projetos .container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+    object-position: top;
 }
