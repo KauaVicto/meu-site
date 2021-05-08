@@ -11,6 +11,7 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
@@ -191,4 +192,83 @@ main .projetos .container img{
     background-color: #213886;
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape .texto span{
+    font-size: 2.4rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+.rodape .contato{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape h2{
+    font-size: 2.8rem;
+    padding: 10px;
+    font-family: "Poppins";
+}
+
+.rodape .icones{
+    display: grid;
+    grid-template-columns: 163px 90px;
+    grid-template-rows: 55px 55px;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.rodape .icones .social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.4s all ease-out;
+    position: relative;
+    left: 0;
+}
+.rodape .icones .esqw:hover{
+    position: relative;
+    left: -2rem;
+}
+.rodape .icones .esqg:hover{
+    position: relative;
+    left: -10.0rem;
+}
+.rodape .icones .dir:hover{
+    position: relative;
+    left: -5px;
+    cursor: pointer;
+}
+
+.rodape .icones .social::after{
+    font-size: 1.4rem;
+    padding: 15px 4px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+
+.rodape .icones .rede1:hover::after{
+    content: "(77)99983-1299";
+}
+.rodape .icones .rede2:hover::after{
+    content: "@kaua_41_";
+}
+.rodape .icones .rede3:hover::after{
+    content: "kauavictor259@gmail.com";
+    padding: 15px;
+}
+.rodape .icones .rede4:hover::after{
+    content: "/kauavicto";
+}
+
+.rodape .icones img{
+    width: 30px;
 }
