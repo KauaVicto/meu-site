@@ -22,10 +22,12 @@ body{
     position: relative;
 }
 
+/* #153140 */
+
 header.container{
     width: 100vw;
     height: 140px;
-    background-color: #153140;
+    background-color: #0D1F2D;
     display: flex;
     justify-content: space-between;
     align-items: center;
