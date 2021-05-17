@@ -92,7 +92,7 @@ main .texto{
 main .home{
     margin-top: 100px;
     height: 700px;
-    background-color: rgba(16, 166, 148, 0.53);
+    background-color: rgba(48, 114, 140, 0.53);
 }
 
 
@@ -106,7 +106,7 @@ main .home .texto{
 
 main .servicos{
     height: 700px;
-    background-color: rgba(65, 94, 140, 0.61);
+    background-color: rgba(6, 42, 64, 0.61);
 }
 
 main .servicos .container{
@@ -170,7 +170,7 @@ main .estudos .linguagens img{
 
 main .projetos{
     height: 700px;
-    background-color: rgba(36, 5, 26, 0.85);
+    background-color: #2E688C;
 }
 
 main .projetos .container{
