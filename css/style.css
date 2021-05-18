@@ -289,7 +289,7 @@ main .projetos .container img{
     transition: 0.1s all ease-out;
 }
 
-.rodape .rede1:target::before{
+.rodape .rede1:active::before{
     top: -40px;
     opacity: 1;
 }
