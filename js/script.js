@@ -13,11 +13,12 @@ gmail.addEventListener('click', function(){
 
     
     cgmail.style.opacity = '1'
-    cgmail.style.top = '-15px'
+    cgmail.style.top = '-75px'
 
     setTimeout(function() {
         cgmail.style.top = '0'
         cgmail.style.opacity = '0'
+        cgmail.style.width = '100%'
     },1000);
 })
 

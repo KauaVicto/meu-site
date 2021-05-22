@@ -246,6 +246,7 @@ main .projetos .container img{
 .rodape .icones .esqg:hover{
     position: relative;
     left: -10.0rem;
+    width: 150%;
 }
 .rodape .icones .dir:hover{
     position: relative;
