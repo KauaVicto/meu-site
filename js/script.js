@@ -7,7 +7,10 @@ gmail.addEventListener('click', function(){
     text.value = "kauavictor259@gmail.com"
     text.select()
     document.execCommand('copy')
+    
+    setTimeout(function() {
 
+    },3000);
 })
 
 wpp.addEventListener('click', function(){

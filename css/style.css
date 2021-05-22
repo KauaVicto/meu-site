@@ -277,19 +277,7 @@ main .projetos .container img{
     width: 30px;
 }
 
-.rodape .rede1::before{
-    content: 'Número copiado';
-    padding: 10px 4px;
-    font-size: 2rem;
-    position: absolute;
-    background-color: blue;
-    top: 0;
+#copiar{
     opacity: 0;
-    z-index: 2;
-    transition: 0.1s all ease-out;
-}
-
-.rodape .rede1:active::before{
-    top: -40px;
-    opacity: 1;
+    cursor: default;
 }
