@@ -277,7 +277,22 @@ main .projetos .container img{
     width: 30px;
 }
 
+/* COPIAR REDES */
+
 #copiar{
     opacity: 0;
     cursor: default;
+}
+
+.copiado {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    z-index: 0;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    opacity: 0;
+    border: 1px solid white;
+    transition: .3s all ease-in-out;
 }
