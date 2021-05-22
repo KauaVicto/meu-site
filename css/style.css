@@ -177,14 +177,43 @@ main .projetos .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 60%;
 }
-main .projetos .container img{
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+
+main .projetos .texto{
+    width: 30%;
+}
+
+main .projetos .slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+
+main .projetos .lista li{
+    list-style: none;
+}
+
+main .projetos .imagens{
+    height: 250px;
+    width: 500px;
     object-fit: cover;
     object-position: top;
+    z-index: 8;
+    position: relative;
+    border-radius: 10px;
+    transition: .4s all ease-in-out;
 }
+
+main .projetos #img2{
+    display: none;
+}
+
+main .projetos #sEsq{
+    transform: rotateZ(180deg);
+}
+
 
 /* FOOTER */
 
