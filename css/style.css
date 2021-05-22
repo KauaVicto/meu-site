@@ -197,6 +197,7 @@ main .projetos .container img{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 0;
 }
 
 .rodape .texto span{
@@ -257,6 +258,8 @@ main .projetos .container img{
     padding: 15px 4px;
     font-family: 'Poppins', sans-serif;
     display: block;
+    position: relative;
+    z-index: -1;
 }
 
 .rodape .icones .rede1:hover::after{
@@ -264,18 +267,25 @@ main .projetos .container img{
 }
 .rodape .icones .rede2:hover::after{
     content: "@kaua_41_";
+    left: -92px;
 }
 .rodape .icones .rede3:hover::after{
     content: "kauavictor259@gmail.com";
-    padding: 15px;
+    padding: 20px 15px;
 }
 .rodape .icones .rede4:hover::after{
     content: "/kauavicto";
+    left: -92px;
 }
 
 .rodape .icones img{
     width: 30px;
 }
+
+.rodape .social a{
+    padding-right: 95px;
+}
+
 
 /* COPIAR REDES */
 
