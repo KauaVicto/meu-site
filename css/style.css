@@ -41,8 +41,18 @@ header.container .logo{
 }
 
 header.container .menu{
+    background-color: #0D1F2D;
+    padding: 20px;
+    border-radius: 10px;
     width: 25vw;
     margin-right: 5rem;
+    position: fixed;
+    right: 0;
+
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 header.container .menu ul{
