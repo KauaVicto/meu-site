@@ -48,10 +48,10 @@ function passarEsqueda(){
     }
 }
 
-setInterval(() => {
-    passarDireita()
-}, 10000)
+// setInterval(() => {
+//     passarDireita()
+// }, 10000)
 
-setInterval(() => {
-    passarEsqueda()
-}, 20000);
+// setInterval(() => {
+//     passarEsqueda()
+// }, 20000);

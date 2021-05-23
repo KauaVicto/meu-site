@@ -327,10 +327,13 @@ main .projetos #b2{
     position: relative;
     left: -2rem;
 }
+.rodape .icones .esqg{
+    width: 163px;
+}
 .rodape .icones .esqg:hover{
     position: relative;
     left: -10.0rem;
-    width: 150%;
+    width: 244px;
 }
 .rodape .icones .dir:hover{
     position: relative;
@@ -383,6 +386,7 @@ main .projetos #b2{
     width: 150px;
     position: absolute;
     top: 0;
+    right: 0;
     text-align: center;
     z-index: 0;
     font-size: 1.5rem;
