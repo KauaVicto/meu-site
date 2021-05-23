@@ -18,7 +18,6 @@ gmail.addEventListener('click', function(){
     setTimeout(function() {
         cgmail.style.top = '0'
         cgmail.style.opacity = '0'
-        cgmail.style.width = '100%'
     },1000);
 })
 

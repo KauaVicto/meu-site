@@ -236,6 +236,11 @@ main .projetos #img1{
 main .projetos #sEsq, main .projetos #sDir{
     position: relative;
     z-index: 10;
+    opacity: .7;
+    transition: .2s all ease-in-out;
+}
+main .projetos #sEsq:hover, main .projetos #sDir:hover{
+    opacity: 1;
 }
 
 main .projetos #sEsq{
@@ -375,7 +380,7 @@ main .projetos #b2{
 }
 
 .copiado {
-    width: 100%;
+    width: 150px;
     position: absolute;
     top: 0;
     text-align: center;
