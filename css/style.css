@@ -194,6 +194,12 @@ main .projetos .texto{
     width: 30%;
 }
 
+main .projetos .linha{
+    width: 1px;
+    height: 350px;
+    background-color: rgb(150, 150, 150);
+}
+
 main .projetos .slider{
     width: 40%;
     display: flex;
