@@ -212,6 +212,7 @@ main .projetos #img2{
 
 main .projetos #sEsq{
     transform: rotateZ(180deg);
+    padding: 10px;
 }
 
 
