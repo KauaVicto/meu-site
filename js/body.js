@@ -25,6 +25,8 @@ function passarDireita(){
         setTimeout(() => {
             imgs[0].style.left = '0'
         },500)
+    }else{
+        passarEsqueda()
     }
 }
 
@@ -41,6 +43,8 @@ function passarEsqueda(){
         setTimeout(() => {
             imgs[1].style.left = '0'
         },500)
+    }else{
+        passarDireita()
     }
 }
 
