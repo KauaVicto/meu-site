@@ -31,6 +31,11 @@ header.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 header.container .logo{
@@ -48,11 +53,6 @@ header.container .menu{
     margin-right: 5rem;
     position: fixed;
     right: 0;
-
-    -webkit-user-select: none;
-    -moz-user-select: -moz-none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 header.container .menu ul{
