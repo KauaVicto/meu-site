@@ -12,12 +12,19 @@ sEsq.addEventListener('click', passarEsqueda)
 b2.addEventListener('click', passarDireita)
 b1.addEventListener('click', passarEsqueda)
 
+for(let i = 0; i < imgs.length; i++){
+    imgs[i].addEventListener('click', abrirImg, true)
+}
+
+
 function passarDireita(){
     if(numimg == 1){
         numimg++
 
         imgs[0].style.opacity = '0'
+        imgs[0].style.zIndex = '-1'
         imgs[1].style.opacity = '1'
+        imgs[1].style.zIndex = '2'
         b1.style.backgroundColor = '#ffffff80'
         b2.style.backgroundColor = '#ffffff'
 
@@ -35,7 +42,9 @@ function passarEsqueda(){
         numimg--
 
         imgs[0].style.opacity = '1'
+        imgs[0].style.zIndex = '2'
         imgs[1].style.opacity = '0'
+        imgs[1].style.zIndex = '-1'
         b1.style.backgroundColor = '#ffffff'
         b2.style.backgroundColor = '#ffffff80'
 
@@ -46,6 +55,10 @@ function passarEsqueda(){
     }else{
         passarDireita()
     }
+}
+
+function abrirImg(){
+    console.log('deu certo')
 }
 
 // setInterval(() => {
