@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -39,10 +40,11 @@ header.container{
 }
 
 header.container .logo{
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     text-align: center;
     padding: 20px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
 }
 
 header.container .menu{
