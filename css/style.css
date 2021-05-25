@@ -236,10 +236,12 @@ main .projetos .imagens{
 main .projetos #img2{
     top: -135px;
     opacity: 0;
+    z-index: -2;
 }
 main .projetos #img1{
     top: 117px;
     opacity: 1;
+    z-index: 2;
 }
 
 main .projetos #sEsq, main .projetos #sDir{
