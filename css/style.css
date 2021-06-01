@@ -444,7 +444,7 @@ main .projetos #b2{
     }
 
     .menu.on{
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 25vw;
