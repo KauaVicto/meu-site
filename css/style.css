@@ -144,6 +144,7 @@ main .servicos .container .servico{
 
 main .servicos .servico img{
     margin: 0 auto;
+    width: 60%;
 }
 
 main .servicos .servico span{
@@ -422,8 +423,16 @@ main .projetos #b2{
     }
 }
 
+@media (max-width: 1000px) {
+    main .home .texto{
+        font-size: 1.4rem;
+        width: 70%;
+    }
+}
+
 @media (max-width: 700px) {
 
+    /* MENU */
     nav{
         display: none;
     }
@@ -491,4 +500,13 @@ main .projetos #b2{
         opacity: 0;
     }
 
+    /* PROJETOS */
+
+    main .servicos .container .servico{
+        width: 170px;
+        height: 250px;
+    }
+    main .servicos .container .servico span{
+        font-size: 1.9rem;
+    }
 }
