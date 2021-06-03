@@ -176,10 +176,12 @@ main .estudos .linguagens{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 40px;
+    max-width: 250px;
+    width: 30%;
 }
 
 main .estudos .linguagens img{
-    width: 100px;
+    width: 100%;
 }
 
 /* PROJETOS */
@@ -428,6 +430,27 @@ main .projetos #b2{
         font-size: 1.4rem;
         width: 70%;
     }
+    main .estudos .texto{
+        font-size: 1.4rem;
+        width: 40%;
+    }
+
+    /* PROJETOS */
+
+    main .projetos .container{
+        display: block;
+    }
+    main .projetos .container .linha{
+        display: none;
+    }
+    main .projetos .texto{
+        font-size: 1.4rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* main .projetos .lista{
+        width: 40%;
+    } */
 }
 
 @media (max-width: 700px) {
@@ -500,6 +523,16 @@ main .projetos #b2{
         opacity: 0;
     }
 
+    /* SECTIONS */
+
+    main .home, main .estudos, main .projetos, main .servicos{
+        height: 500px;
+    }
+
+    body{
+        height: 2500px;
+    }
+
     /* PROJETOS */
 
     main .servicos .container .servico{
@@ -508,5 +541,13 @@ main .projetos #b2{
     }
     main .servicos .container .servico span{
         font-size: 1.9rem;
+    }
+
+    /* Títulos */
+
+    main h1{
+        text-align: start;
+        font-size: 3.5rem;
+        padding: 3rem;
     }
 }
